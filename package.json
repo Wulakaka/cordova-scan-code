@@ -1,0 +1,19 @@
+{
+  "name": "scan-code",
+  "version": "0.0.1",
+  "description": "联新PDA扫码功能",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dyw",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wulakaka/cordova-csan-code.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wulakaka/cordova-csan-code/issues"
+  },
+  "homepage": "https://github.com/Wulakaka/cordova-csan-code#readme"
+}
