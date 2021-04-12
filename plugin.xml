@@ -12,8 +12,10 @@
                 <!-- value：的值是对应的插件中ToastDemo.java存放的路径 -->
                 <param name="android-package" value="io.cordova.hellocordova.ScanCode"/>
             </feature>
-        </config-file> 
+        </config-file>
         <!-- src:是插件里存放对应.java的路径， target-dir:安装插件时把.java文件存放的位置，要和上面的value路径对应 -->
         <source-file src="src/android/ScanCode.java" target-dir="src/io/cordova/hellocordova" />
-    </platform> 
+        <preference name="ANDROID_SUPPORT_V4_VERSION" default="27.+"/>
+        <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
+    </platform>
 </plugin>
